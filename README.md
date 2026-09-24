@@ -121,7 +121,7 @@ Fraud is concentrated in early-morning hours and occurs primarily in `TRANSFER` 
 
 ### Anomaly Detection
 
-![Transaction amount anomalies detected using Z-score](images/anomaly_detection.png)
+![Transaction amount anomalies detected using Z-score](anomaly_detection.png)
 
 Transactions above the Z-score threshold are treated as unusually large and reviewed as potential risk signals.
 
