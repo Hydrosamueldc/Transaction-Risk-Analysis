@@ -109,13 +109,13 @@ The dataset contains **6,362,620 transactions** across **743 hourly time steps**
 
 ### Transaction Volume
 
-![Transaction volume by hour and day](images/transaction_volume.png)
+![Transaction volume by hour and day](transaction_volume.png)
 
 Transaction activity is highest in the evening, with the hourly peak occurring around 19:00.
 
 ### Fraud Patterns
 
-![Fraud rate by hour and transaction type](images/fraud_patterns.png)
+![Fraud rate by hour and transaction type](fraud_patterns.png)
 
 Fraud is concentrated in early-morning hours and occurs primarily in `TRANSFER` and `CASH_OUT` transactions.
 
@@ -127,7 +127,7 @@ Transactions above the Z-score threshold are treated as unusually large and revi
 
 ### Random Forest Results
 
-![Random Forest feature importance and confusion matrix](images/random_forest_results.png)
+![Random Forest feature importance and confusion matrix](random_forest_results.png)
 
 The model relies most strongly on the sender's original balance, time, and transaction amount. Its confusion matrix shows 1,601 detected fraud cases, 42 missed fraud cases, and 33 legitimate transactions incorrectly flagged as fraud in the sampled test set.
 
